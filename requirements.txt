@@ -1,0 +1,4 @@
+einops
+torch>=1.9
+basicsr>=1.4.2
+cython
