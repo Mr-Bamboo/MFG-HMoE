@@ -18,7 +18,7 @@ python setup.py develop
  > * CUDA 11.8
  > * Python >=3.7.0
  > * PyTorch >= 1.9.0
- > * basicsr >= 1.4.2
+ > * basicsr >= 1.3.4.9
 
 
 ## Usage
