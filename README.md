@@ -33,12 +33,11 @@ python hmoe/train.py -opt options/train/train_HMoE_SRx4_UCMerced.yml --auto_resu
 ### Test
 ```
 python hmoe/test.py -opt options/test/test_HMoE_SRx4_UCMerced.yml
-
 ```
 The weight file (pth) for UCMerced has been released at the link below：
 [Google Drive]:https://drive.google.com/drive/folders/1WU3UUcRl9Q4EY1TokaqvPmBy0W6TClaZ?usp=sharing
 
-However, please note that we do not recommend directly using this weight file for performance reporting, as the dataset splits may be not consistent. We suggest that you use the provided training scripts to train the model yourself and then conduct testing.
+However, please note that we do not recommend using this weight file directly for performance reporting, since your dataset splits may differ from those used in our work. For performance reporting, we strongly suggest training the model yourself using the provided training scripts and then evaluating with the weights obtained from your own training process.
 
 
 ## Acknowledgments
